@@ -4,6 +4,9 @@
 <remote  name="darshan"
            fetch="https://github.com/Mevadadarshan1997" />
 
+<remote  name="dazz"
+           fetch="https://github.com/mevadadarshan19" />
+
 <remote name="varun" 
            fetch="https://gitlab.com/GhostMaster69-dev" />
 
