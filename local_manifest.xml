@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remote name="mojito"
+                fetch="https://github.com" />
+
 <remote  name="darshan"
            fetch="https://github.com/Mevadadarshan1997" />
 
@@ -30,6 +33,9 @@
   <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="darshan" revision="bootleg" clone-depth="1" />
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="darshan" revision="13" clone-depth="1" />
   <project path="kernel/asus/sdm660" name="android_kernel_asus_X01BD" remote="sonal" revision="arrow-13.0" clone-depth="1" />
+
+ <!-- patch -->
+<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="mojito" revision="lineage-20.0" />
 
   <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" clone-depth="1" revision="release/14.x" remote="varun" />
