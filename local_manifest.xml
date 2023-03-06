@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remote  name="github"
+           fetch="https://github.com" />
+
 <remote  name="darshan"
            fetch="https://github.com/Mevadadarshan1997" />
 
@@ -24,6 +27,9 @@
            
 <remote  name="prcl"
            fetch="https://github.com/kdrag0n" />
+
+  <!-- Hardware -->
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="darshan" revision="lineage-20.0" clone-depth="1" />
 
   <!-- Trees -->
   <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="darshan" revision="spark" clone-depth="1" />
