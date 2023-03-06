@@ -29,6 +29,7 @@
            fetch="https://github.com/kdrag0n" />
 
   <!-- Hardware -->
+	<remove-project name="android_hardware_qcom_audio" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="darshan" revision="lineage-20.0" clone-depth="1" />
 
   <!-- Trees -->
