@@ -30,7 +30,7 @@
 
   <!-- Hardware -->
 	<remove-project name="android_hardware_qcom_audio" />
-	<remove-project path="hardware/qcom/audio"
+	<remove-project path="hardware/qcom/audio" />
         <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="darshan" revision="lineage-20.0" clone-depth="1" />
 
 
