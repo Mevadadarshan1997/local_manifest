@@ -31,7 +31,7 @@
   <!-- Hardware -->
 	<remove-project name="android_hardware_qcom_audio" />
 	<remove-project path="hardware/qcom/audio"
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="darshan" revision="lineage-20.0" clone-depth="1" />
+        <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="darshan" revision="lineage-20.0" clone-depth="1" />
 
   <!-- Trees -->
   <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="darshan" revision="spark" clone-depth="1" />
