@@ -42,5 +42,14 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="compiler" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" clone-depth="1" revision="master" remote="prcl" />
-
+remove-project name="frameworks_base" />
+<project path="frameworks/base" name="romgharti/frameworks_base" remote="mojito" revision="tirimbino" />
+<remove-project name="packages_apps_Settings" />
+<project path="packages/apps/Settings" name="romgharti/packages_apps_Settings" remote="mojito" revision="tirimbino" />
+<remove-project name="device_bootleg_sepolicy" />
+<project path="device/bootleg/sepolicy" name="romgharti/device_bootleg_sepolicy" remote="mojito" revision="tirimbino" />
+<remove-project name="frameworks_av" />
+<project path="frameworks/av" name="romgharti/frameworks_av" remote="mojito" revision="tirimbino" />
+<remove-project name="vendor_bootleggers" />
+<project path="vendor/bootleggers" name="romgharti/vendor_bootleggers" remote="mojito" revision="tirimbino" />
 </manifest>
