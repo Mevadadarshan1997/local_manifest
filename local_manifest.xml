@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote  name="darshan"
-           fetch="https://github.com/Mevadadarshan1997" />
+<remote name="darshan" fetch="https://github.com/Mevadadarshan1997" />
 
-<remote name="varun" 
-           fetch="https://gitlab.com/GhostMaster69-dev" />
+<remote name="varun" fetch="https://gitlab.com/GhostMaster69-dev" />
 
-<remote name="volt"
-      	   fetch="https://github.com/karthik1896" />
+<remote name="volt" fetch="https://github.com/karthik1896" />
 
-<remote name="ImSurajxD"
-		   fetch="https://gitlab.com/ImSurajxD" />
+<remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
-<remote name="sonal"
-		   fetch="https://github.com/ArrowOS-Devices" />
+<remote name="sonal" fetch="https://github.com/ArrowOS-Devices" />
 
-<remote  name="compiler"
-           fetch="https://gitlab.com/arrowos-project" />
+<remote name="compiler" fetch="https://gitlab.com/arrowos-project" />
            
-<remote  name="prcl"
-           fetch="https://github.com/kdrag0n" />
+<remote name="prcl" fetch="https://github.com/kdrag0n" />
 
   <!-- Trees -->
   <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="darshan" revision="13" clone-depth="1" />
