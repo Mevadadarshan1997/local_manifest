@@ -3,7 +3,7 @@
 
 <remote name="darshan" fetch="https://github.com/Mevadadarshan1997" />
 
-<remote name="clang" fetch="https://gitlab.com/Amritorock" />
+<remote name="clang" fetch="https://gitlab.com/ImSurajxD" />
 
 <remote name="sonal" fetch="https://github.com/ArrowOS-Devices" />
 
@@ -19,5 +19,4 @@
   <!--project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="compiler" revision="master" clone-depth="1" /-->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   <!--project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" clone-depth="1" revision="master" remote="prcl" /-->
-
 </manifest>
