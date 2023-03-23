@@ -37,7 +37,7 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" clone-depth="1" revision="master" remote="prcl" />
 
-<!-- dolby -->
- # <project path="vendor/dolby" name="vendor_dolby" remote="darshan" revision="main" clone-depth="1" />
+
+
 
 </manifest>
