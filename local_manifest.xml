@@ -14,5 +14,4 @@
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="darshan" revision="13" clone-depth="1" />
   <project path="kernel/asus/sdm660" name="android_kernel_asus_X01BD" remote="sonal" revision="arrow-13.0" clone-depth="1" />
 
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" revision="master" clone-depth="1" />
-</manifest>
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="Prashant-1695/platform_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="typhoon" clone-depth="1" />
