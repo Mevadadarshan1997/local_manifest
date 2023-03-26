@@ -4,8 +4,8 @@
 <remote  name="darshan"
            fetch="https://github.com/Mevadadarshan1997" />
 
-<remote  name="dazz"
-           fetch="https://github.com/mevadadarshan19" />
+<remote  name="github"
+           fetch="https://github.com" />
 
 <remote name="varun" 
            fetch="https://gitlab.com/GhostMaster69-dev" />
@@ -37,7 +37,14 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" clone-depth="1" revision="master" remote="prcl" />
 
+  <!-- remove -->
+ <remove-project name="platform_hardware_qcom_display" />
+ <remove-project name="platform_hardware_qcom_media" />
+ <remove-project name="platform_hardware_qcom_audio" />
 
-
+  <!-- hardware -->
+ <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,qcom_media" remote="github" revision="lineage-20.0" />
+ <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-20.0" />
+ <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,qcom_display" remote="github" revision="lineage-20.0" />
 
 </manifest>
