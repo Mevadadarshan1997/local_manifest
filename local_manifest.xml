@@ -39,6 +39,6 @@
 
   <remove-project name="DerpFest-AOSP/frameworks_base" />
 
-  <project path="frameworks/base" name="frameworks_base" remote="darshan" revision="13" clone-depth="1" />
+  <project path="frameworks/base" name="frameworks_base" remote="darshan" revision="13" />
 
 </manifest>
