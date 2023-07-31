@@ -39,6 +39,6 @@
 
   <remove-project name="frameworks_base" />
 
-  <project path="frameworks/base" name="frameworks_base" remote="darshan" revision="13" />
+  <project path="frameworks/base" name="frameworks_base" remote="dazz" revision="patch-2" />
 
 </manifest>
